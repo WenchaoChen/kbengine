@@ -26,7 +26,7 @@ along with KBEngine.  If not, see <http://www.gnu.org/licenses/>.
 namespace KBEngine { 
 
 /*
-	¼ÇÂ¼event_historyÁ÷Á¿
+	è®°å½•event_historyæµé‡
 */
 class EventHistoryStats
 {
@@ -56,6 +56,7 @@ public:
 	EventHistoryStats::STATS& stats(){ return stats_; }
 
 	const char* name()const { return name_.c_str(); }
+
 private:
 	STATS stats_;
 
